@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-style: italic;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+section{
+    text-align: justify;
+    margin: 20;
+    padding: 20;
+}
+h2{
+    text-align: justify;
+    text-decoration: underline;
+}
