@@ -10,80 +10,121 @@
 <body>
     <header>
         <a href="#" class="logo">Ujjwalpreet Kaur</a>
+
+        <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="skills.html">Skills</a>
-            <a href="education.html">Education</a>
-            <a href="projects.html">Projects</a>
-            <a href="#contact">Contact</a>
+            <ul class="navbar">
+                <li><a href="#home">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>           
         </nav>
     </header>
 
-    <section class="home">
+    <main>
+        
+    <section id="home" class="section">
         <div class="image">
-            <img src="me.jpeg" alt="Ujjwalpreet's photo">
+            <img src="me.jpeg" alt="Portrait of Ujjwalpreet kaur">
         </div>
         <div class="content">
-            <h1>Hi, it's <span>Ujjwalpreet Kaur</span></h1>
-            <h3 class="typing-text">I'm a <span>Web Developer</span></h3>
+            <h1>Hi, it's <br> <span style="color: rgb(79, 191, 191);">Ujjwalpreet Kaur</span></h1>
+            <h3>I'm a <span class="typing-text"></span></h3>
             <p>I’m a web developer with a knack for clean, functional designs. Currently pursuing a BTech in CSE, I’m building a Campus Navigation System website to help people find their way around campus. I’m also learning about networks and love exploring C and Python. Outside of code, I enjoy reading news blogs, analyzing market trends, and getting lost in books.</p>
             <div class="social-icon">
                 <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
         </div>
     </section>
+
+    <section id="education" class="section">
+        <h2>My Education</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>BTech in CSE</h3>
+                <p>3rd year</p>
+                <p>OCPA : 7.7</p>
+            </div>
+            <div class="skill-box">
+                <h3>12th Grade</h3>
+                <p>S.S. Mota Singh Sr. Sec. Model School</p>
+                <p> Percentage : 76%</p>
+            </div>
+            <div class="skill-box">
+                <h3>10th Grade</h3>
+                <p>S.S. Mota Singh Sr. Sec. Model School</p>
+                <p> Percentage : 84%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Campus Navigation System</h3>
+                <p>An interactive map designed to help students and visitors find their way around campus easily.</p>
+
+            </div>
+            <div class="skill-box">
+                <h3>Online Bookstore Website</h3>
+                <p>A simple and user-friendly platform to explore and browse books online.</p>
+
+            </div>
+            <div class="skill-box">
+                <h3>Portfolio Website </h3>
+                <p>My personal portfolio to showcase my skills, projects, and interests.</p>
+    
+            </div>
+            <div class="skill-box">
+                <h3>IRCTC Clone Website </h3>
+                <p>A basic clone of the IRCTC website created with HTML, CSS, and JavaScript to practice layout and interactivity.</p>
+            </div>
+            <div class="skill-box">
+                <h3>Role-Playing Game </h3>
+                <p>A basic js game created with HTML, CSS, and JavaScript to practice javascript concepts.</p>
+            </div>
+            <div class="skill-box">
+                <h3>Calorie-Counter</h3>
+                <p>Website created with HTML, CSS, and JavaScript to practice Javascript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <p>C, C++, Python</p>
+            </div>
+            <div class="skill-box">
+                <h3>Web Development</h3>
+                <p>HTML, CSS (learning front-end basics)</p>
+            </div>
+            <div class="skill-box">
+                <h3>Problem Solving</h3>
+                <!-- <p>Strong logical thinking and algorithm design.</p> -->
+            </div>
+            <div class="skill-box">
+                <h3>Networking</h3>
+                <p>Curious about how systems connect and communicate.</p>
+            </div>
+            <div class="skill-box">
+                <h3>Continuous Learner</h3>
+                <p>Always exploring new technologies and tools.</p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="contact" class="social-icon">
+        <pre>Contact:   Email: kujjwalpreet@gmail.com    LinkedIn: <a href="#"><i class="fab fa-linkedin"></i></a>    GitHub: <a href="https://github.com/ujjwalpreetkaur"><i class="fab fa-github"></i></a></pre>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-<!-- <header>
-        <h1>Hi, I am Ujjwalpreet Kaur!</h1>
-        <img src="me.jpeg" alt="My photo">
-    </header>
-
-    <main class="grid-layout">
-         About Section -->
-        <!-- <section id="about">
-            <h2>About Me</h2>
-            <p>I’m a web developer with a knack for clean, functional designs. Currently pursuing a BTech in CSE, I’m building a Campus Navigation System website to help people find their way around campus. I’m also learning about networks and love exploring C and Python. Outside of code, I enjoy reading news blogs, analyzing market trends, and getting lost in books.</p>
-        </section> -->
-
-        <!-- Skills Section -->
-        <!-- <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li><b>Programming Languages:</b> C, C++, Python</li>
-                <li><b>Web Development:</b> HTML, CSS (learning front-end basics)</li>
-                <li><b>Problem Solving</b></li>
-                <li><b>Networking:</b> Curious about how systems connect</li>
-                <li><b>Continuous Learner:</b> Always exploring new tech</li>
-            </ul>
-        </section> -->
-
-        <!-- Projects Section -->
-        <!-- <section id="projects">
-            <h2>Projects</h2>
-            <ol>
-                <li><b>Campus Navigation System</b> – Interactive map to navigate the campus</li>
-                <li><b>Online Bookstore Website</b> – A user-friendly book browsing platform</li>
-                <li><b>User Registration Form</b> – Built with HTML & CSS</li>
-                <li><b>Portfolio Website</b> – A place to showcase my work</li>
-            </ol>
-        </section> -->
-
-        <!-- Education Section -->
-        <!-- <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li><b>BTech in CSE</b> – 3rd year | OCPA: 7.7</li>
-                <li><b>12th Grade</b> – S.S. Mota Singh Sr. Sec. Model School | 76%</li>
-            </ul>
-        </section>
-    </main> --> 
