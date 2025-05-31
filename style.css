@@ -32,6 +32,10 @@ nav {
     flex-wrap: wrap;
 }
 
+.navbar{
+    display: flex;
+}
+
 .navbar ul {
     display: flex;
     list-style: none;
